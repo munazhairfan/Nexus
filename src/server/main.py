@@ -23,7 +23,7 @@ app.add_middleware(RateLimiterMiddleware)
 
 # Conditional CORS Configuration
 if settings.ENVIRONMENT == "production":
-    allow_origins = ["https://nexus-production-url.com"] # Replace with actual domain
+    allow_origins = ["https://nexus-khaki-phi.vercel.app"] # Replace with actual domain
 else:
     allow_origins = ["*"]
 
